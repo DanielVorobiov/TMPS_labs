@@ -17,9 +17,9 @@ function clientCode() {
   const s2 = Singleton.getInstance();
 
   if (s1 == s2) {
-    console.log("Singleton works, both variables contain the same instance");
+    console.log("Evrika");
   } else {
-    console.log("Singleton failed, variables contain different instances.");
+    console.log("Evrika.....not.");
   }
 }
 
