@@ -5,17 +5,17 @@ function clientCode(director: Director) {
   const builder = new ConcreteBuilder();
   director.setBuilder(builder);
 
-  console.log("Standart basic product: ");
+  console.log("Producerea componentului standart");
   director.buildMinimalViableProduct();
   builder.getProduct().listParts();
 
-  console.log("Standart full product: ");
+  console.log("Producerea tuturor componentelor");
   director.buildFullFeaturedProduct();
   builder.getProduct().listParts();
 
-  console.log("Custom product: ");
-  builder.producePartA();
-  builder.producePartC();
+  console.log("Producere costumizată");
+  builder.produceNumeObiect();
+  builder.produceNumeProfesor();
   builder.getProduct().listParts();
 }
 

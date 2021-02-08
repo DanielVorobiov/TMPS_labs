@@ -1,5 +1,5 @@
 export default interface Builder {
-  producePartA(): void;
-  producePartB(): void;
-  producePartC(): void;
+  produceNumeObiect(): void;
+  produceNumeProfesor(): void;
+  produceNumarCabinet(): void;
 }

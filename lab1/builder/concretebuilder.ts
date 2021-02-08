@@ -11,14 +11,14 @@ export default class implements Builder {
   public reset(): void {
     this.product = new Product();
   }
-  public producePartA(): void {
-    this.product.parts.push("Product A");
+  public produceNumeObiect(): void {
+    this.product.parts.push("A fost adaugat obiectul.");
   }
-  public producePartB(): void {
-    this.product.parts.push("Product B");
+  public produceNumeProfesor(): void {
+    this.product.parts.push("A fost adaugat profesorul.");
   }
-  public producePartC(): void {
-    this.product.parts.push("Product C");
+  public produceNumarCabinet(): void {
+    this.product.parts.push("A fost adaugat numarul cabinetului.");
   }
 
   public getProduct(): Product {
