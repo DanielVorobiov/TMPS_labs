@@ -7,11 +7,11 @@ import ConcreteTMPSCurs from "./TMPS/ConcreteTMPSCurs";
 function mainFunction(factory: AbstractFactory) {
   const TMPS = new ConcreteTMPSCurs();
   const curs = factory.createCurs();
-  //const seminar = factory.createSeminar();
+  const seminar = factory.createSeminar();
   const lab = factory.createLab();
 
   console.log(curs.createCurs());
-  // console.log(seminar.createSeminar());
+  console.log(seminar.createSeminar());
   console.log(lab.createLab());
 
   TMPS.name = "Obiect";

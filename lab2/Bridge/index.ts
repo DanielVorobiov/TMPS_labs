@@ -22,22 +22,22 @@ let lesson2: Seminare = new Seminare(
 );
 
 let lesson3: Labs = new Labs(
-  "TMPS",
-  "Bitca Ernest",
+  "TS",
+  "Andrian Prisaru",
   "11:30",
   "Testare Software",
   "Cabinetul: 513"
 );
 
 function show(lesson, type: "calendar" | "detailed") {
-  let calendarLesson: View = new Calendarview();
-  calendarLesson.lesson = lesson;
-  let detailedLesson: View = new Detailedview();
-  detailedLesson.lesson = lesson;
   if (type == "calendar") {
+    let calendarLesson: View = new Calendarview();
+    calendarLesson.lesson = lesson;
     return calendarLesson.generate();
   }
   if (type == "detailed") {
+    let detailedLesson: View = new Detailedview();
+    detailedLesson.lesson = lesson;
     return detailedLesson.generate();
   }
 }
