@@ -1,7 +1,7 @@
-import Icomponent from "../IComponent";
+import IComponent from "../IComponent";
 
-export default abstract class ComponentDecorator implements Icomponent {
-  protected _component: Icomponent;
+export default abstract class ComponentDecorator implements IComponent {
+  protected _component: IComponent;
 
   constructor(component) {
     this._component = component;
