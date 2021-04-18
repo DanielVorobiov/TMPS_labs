@@ -1,6 +1,6 @@
-import Individual from "../Users/Individual";
+import Individual from "./Individual";
 import IMediator from "./IMediator";
-import Citizen from "../Users/User";
+import Citizen from "./User";
 
 export default class PostOfficeMediaotr implements IMediator {
   private _individuals: Individual[];

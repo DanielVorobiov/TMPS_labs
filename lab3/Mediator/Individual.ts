@@ -1,4 +1,4 @@
-import IMediator from "../Mediators/IMediator";
+import IMediator from "./IMediator";
 import Citizen from "./User";
 
 export default class Individual extends Citizen {

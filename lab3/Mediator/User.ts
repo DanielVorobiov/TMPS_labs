@@ -1,4 +1,4 @@
-import IMediator from "../Mediators/IMediator";
+import IMediator from "./IMediator";
 
 export default abstract class Citizen {
   protected _mediator: IMediator;

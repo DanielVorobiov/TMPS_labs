@@ -1,5 +1,5 @@
-import PostOfficeMediaotr from "./Mediators/PostOfficeMediator";
-import Individual from "./Users/Individual";
+import PostOfficeMediaotr from "./PostOfficeMediator";
+import Individual from "./Individual";
 
 let postOffice = new PostOfficeMediaotr();
 
