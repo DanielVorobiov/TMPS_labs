@@ -23,8 +23,8 @@ let thirdFloorCommand2 = new ThirdFloor(elevator2);
 let fourthFloorCommand1 = new FourthFloor(elevator1);
 let fourthFloorCommand2 = new FourthFloor(elevator2);
 
-let fithFloorCommand1 = new FithFloor(elevator1);
-let fithFloorCommand2 = new FithFloor(elevator2);
+let fithFloorCommand1 = new FithFloor(elevator1, "Music");
+let fithFloorCommand2 = new FithFloor(elevator2, "Another music");
 
 let openDoorsCommand1 = new OpenDoors(elevator1);
 let openDoorsCommand2 = new OpenDoors(elevator2);
