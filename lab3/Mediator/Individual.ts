@@ -1,5 +1,5 @@
 import IMediator from "./IMediator";
-import Citizen from "./User";
+import Citizen from "./Citizen";
 
 export default class Individual extends Citizen {
   constructor(mediator: IMediator, id: string) {

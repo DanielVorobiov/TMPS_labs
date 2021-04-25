@@ -1,4 +1,4 @@
-import Citizen from "./User";
+import Citizen from "./Citizen";
 
 export default interface IMediator {
   sendLetter(letter: string, from: Citizen, toId: string);
