@@ -9,10 +9,6 @@ export default abstract class LessonNotifier {
     this._students.push(student);
   }
 
-  public removeStudent(student: IStudent): void {
-    this._students.push(student);
-  }
-
   public notifyStudent(): void {
     this._students.forEach((student) => {
       student.update();
